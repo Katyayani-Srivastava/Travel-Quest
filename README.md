@@ -19,4 +19,5 @@ Travel Quest is a visually stunning website designed for travel enthusiasts who 
 - MySQL
 - Responsive Design (Mobile and Desktop view)
 
-![preview](https://github.com/user-attachments/assets/bb139bfc-a6b9-41db-885e-8221d3e7419c)
+![preview](https://github.com/user-attachments/assets/ef05a3fb-ff7e-4708-99ae-83bcb69c58cf)
+
