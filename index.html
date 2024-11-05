@@ -56,7 +56,7 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            <img src="/assets/img/home-bg.jpg" alt="home image" class="home">
+            <img src="/src/main/webapp/assets/img/home-bg.jpg" alt="home image" class="home">
             <div class="home__shadow"></div>
 
             <div class="home__container container grid">
@@ -80,25 +80,25 @@ more, get your trip now.
                </div>
                <div class="home__cards grid">
                   <article class="home__card">
-                     <img src="/assets/img/home-trees.jpg" alt="home image" class="home__card-img">
+                     <img src="/src/main/webapp/assets/img/home-trees.jpg" alt="home image" class="home__card-img">
                      <h3 class="home__card-title">Croatia</h3>
                      <div class="home__card-shadow"></div>
                   </article>
 
                   <article class="home__card">
-                     <img src="/assets/img/home-lake.jpg" alt="home image" class="home__card-img">
+                     <img src="/src/main/webapp/assets/img/home-lake.jpg" alt="home image" class="home__card-img">
                      <h3 class="home__card-title">Iceland</h3>
                      <div class="home__card-shadow"></div>
                   </article>
 
                   <article class="home__card">
-                     <img src="/assets/img/home-mountain.jpg" alt="home image" class="home__card-img">
+                     <img src="/src/main/webapp/assets/img/home-mountain.jpg" alt="home image" class="home__card-img">
                      <h3 class="home__card-title">Italy</h3>
                      <div class="home__card-shadow"></div>
                   </article>
 
                   <article class="home__card">
-                     <img src="/assets/img/home-beach.jpg" alt="home image" class="home__card-img">
+                     <img src="/src/main/webapp/assets/img/home-beach.jpg" alt="home image" class="home__card-img">
                      <h3 class="home__card-title">Spain</h3>
                      <div class="home__card-shadow"></div>
                   </article>
@@ -128,7 +128,7 @@ explore the paradises of the world.
                   </a>
                </div>
                <div class="about__image">
-                  <img src="/assets/img/about-beach.jpg" alt="about image" class="about__image">
+                  <img src="/src/main/webapp/assets/img/about-beach.jpg" alt="about image" class="about__image">
                   <div class="about__shadow"></div>
                </div>
             </div>
@@ -143,7 +143,7 @@ Of The World
             <div class="popular__container container grid">
                <article class="popular__card">
                   <div class="popular__image">
-                     <img src="/assets/img/popular-mountain.jpg" alt="popular image" class="popular__img">
+                     <img src="/src/main/webapp/assets/img/popular-mountain.jpg" alt="popular image" class="popular__img">
                      <div class="popular__shadow"></div>
                   </div>
 
@@ -158,7 +158,7 @@ Logan Mountain
 
                <article class="popular__card">
                   <div class="popular__image">
-                     <img src="/assets/img/popular-forest.jpg" alt="popular image" class="popular__img">
+                     <img src="/src/main/webapp/assets/img/popular-forest.jpg" alt="popular image" class="popular__img">
                      <div class="popular__shadow"></div>
                   </div>
 
@@ -173,7 +173,7 @@ Spike Forest
 
                <article class="popular__card">
                   <div class="popular__image">
-                     <img src="/assets/img/popular-lake.jpg" alt="popular image" class="popular__img">
+                     <img src="/src/main/webapp/assets/img/popular-lake.jpg" alt="popular image" class="popular__img">
                      <div class="popular__shadow"></div>
                   </div>
 
@@ -192,7 +192,7 @@ Garda Lake
          <section class="explore section" id="explore">
             <div class="explore__container">
                <div class="explore__image">
-                  <img src="/assets/img/explore-beach.jpg" alt="explore image" class="explore__img">
+                  <img src="/src/main/webapp/assets/img/explore-beach.jpg" alt="explore image" class="explore__img">
                   <div class="explore__shadow"></div>
                </div>
                <div class="explore__content container grid">
@@ -208,7 +208,7 @@ Best Paradises
                         can enjoy it with great comfort.</p>
                   </div>
                   <div class="explore__user">
-                     <img src="/assets/img/explore-perfil.png" alt="explore image" class="explore__perfil">
+                     <img src="/src/main/webapp/assets/img/explore-perfil.png" alt="explore image" class="explore__perfil">
                      <span class="explore__name">Paul Jeams</span>
                   </div>
                </div>
@@ -223,16 +223,17 @@ Best Paradises
                      Starts Here</h2>
                      <p class="join__description">Get up to date with the latest 
                         travel and information from us.</p>
-                        <form action="" class="join__form">
-                           <input type="email" placeholder="Enter your email" class="join__input">
-                           <button class="join__button button">
-                              Subscribe Our Newsletter <i class="ri-arrow-right-line"></i>
-                           </button>
-                        </form>
+                        <form action="subscribe" method="post">
+                           <input type="email" name="email" required />
+                           <button type="submit">Subscribe</button>
+                       </form>
+                       
+                       
+
                </div>
 
                <div class="join__image">
-                  <img src="/assets/img/join-island.jpg" alt="join image" class="join__img">
+                  <img src="/src/main/webapp/assets/img/join-island.jpg" alt="join image" class="join__img">
                   <div class="join__shadow"></div>
                </div>
             </div>
@@ -355,7 +356,7 @@ Best Paradises
       </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src="/assets/js/scrollreveal.min.js"></script>
+      <script src="/src/main/webapp/assets/js/scrollreveal.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
