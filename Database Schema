@@ -1,0 +1,22 @@
+This table tracks subscribers to the newsletter, storing their email addresses and subscription timestamps.
+
+| Column Name     | Data Type         | Constraints                     | Description                            |
+|-----------------|-------------------|---------------------------------|----------------------------------------|
+| `id`            | `INT`            | `AUTO_INCREMENT PRIMARY KEY`   | Unique identifier for each subscriber. |
+| `email`         | `VARCHAR(255)`   | `NOT NULL UNIQUE`              | Email address of the subscriber.       |
+| `subscribed_at` | `TIMESTAMP`      | `DEFAULT CURRENT_TIMESTAMP`    | Timestamp when the user subscribed.    |
+
+
+Run the following SQL to create the tables:
+
+-- Use the travel_quest database
+USE travel_quest;
+
+-- Table: newsletter_subscribers
+CREATE TABLE newsletter_subscribers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    subscribed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
