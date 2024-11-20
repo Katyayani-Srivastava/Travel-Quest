@@ -9,7 +9,7 @@ Travel Quest is a visually stunning website designed for travel enthusiasts who 
 - **Landing Page:** Introduction with high-quality images of travel destinations.
 - **Destinations:** A gallery of popular locations including Italy, Croatia, Iceland, and more.
 - **Newsletter Signup:** Users can subscribe to receive travel news and updates.
-  
+
 ## Technologies Used
 - HTML5
 - CSS3
@@ -19,5 +19,25 @@ Travel Quest is a visually stunning website designed for travel enthusiasts who 
 - MySQL
 - Responsive Design (Mobile and Desktop view)
 
-![preview](https://github.com/user-attachments/assets/ef05a3fb-ff7e-4708-99ae-83bcb69c58cf)
+## Repository Structure
+This repository is organized as follows:
+```
 
+├── src/                  # Source files
+│   ├── main/
+│      ├── java/         # Java code for backend
+│      ├── resources/    # Configuration files
+│      └── webapp/       # Frontend files (HTML, CSS, JS)
+│   
+│
+├── pom.xml               # Maven project configuration
+├── README.md             # Project documentation
+
+```
+
+## Requirements
+- **Java Development Kit (JDK) 8 or later**   
+- **Maven 3.6 or later**  
+- **MySQL 8.0 or later**
+
+![preview](https://github.com/user-attachments/assets/d52d2bf2-a88b-4938-b1e0-06aef1cbfc3f)
