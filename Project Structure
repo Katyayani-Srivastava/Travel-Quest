@@ -1,0 +1,13 @@
+responsive-travel-website-2
+├── src
+│   ├── main
+│   │   ├── java
+│   │   ├── resources
+│   │   └── webapp
+│   │       ├── assets
+│   │       │   ├── img
+│   │       │   ├── css
+│   │       │   └── js
+│   │       └── WEB-INF
+│   │           └── web.xml  
+└── pom.xml
