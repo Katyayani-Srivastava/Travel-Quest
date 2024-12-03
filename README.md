@@ -12,7 +12,7 @@ Travel Quest is a visually stunning website designed for travel enthusiasts who 
 
 ## Technologies Used
 - HTML5
-- CSS3
+- CSS3(Bootstrap)
 - JavaScript
 - Java
 - JDBC
