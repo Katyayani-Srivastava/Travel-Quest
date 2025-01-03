@@ -10,7 +10,8 @@ Use JSTL and EL: Demonstrated in user-list.jsp for data iteration and dynamic co
 REVIEW 4
 
 Unit Tests for DAO: Created UserDAOTest under test/java/com/travel/dao/.
-
+Testing and review done.
+Project structure and documentation provided in README.md
 
 Travel-Quest/
 ├── src/
