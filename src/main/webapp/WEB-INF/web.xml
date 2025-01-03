@@ -25,5 +25,13 @@
         <servlet-name>NewsletterSubscriptionServlet</servlet-name>
         <url-pattern>/subscribe</url-pattern>
     </servlet-mapping>
-
+   
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.travel.servlets.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
