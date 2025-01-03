@@ -1,13 +1,27 @@
-responsive-travel-website-2
-├── src
-│   ├── main
-│   │   ├── java
-│   │   ├── resources
-│   │   └── webapp
-│   │       ├── assets
-│   │       │   ├── img
-│   │       │   ├── css
-│   │       │   └── js
-│   │       └── WEB-INF
-│   │           └── web.xml  
+Travel-Quest/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── travel/
+│   │   │           ├── dao/
+│   │   │           ├── model/
+│   │   │           ├── servlets/
+│   │   │           
+│   │   |
+│   │   ├── webapp/
+│   │       ├── WEB-INF/
+│   │       │   ├── web.xml
+│   │       ├── js/
+│   │       ├── css/
+│   │       ├── images/
+│   │       └── jsp/
+│   │           ├── register.jsp
+│   │           └── user-list.jsp
+│   ├── test/
+│       └── java/
+│           └── com/
+│               └── travel/
+│                   ├── dao/
+│                   
 └── pom.xml
