@@ -1,0 +1,12 @@
+REVIEW 3
+
+Create and Configure Servlets: The UserServlet class has been created, mapped to handle doGet and doPost methods, and integrated with web.xml. 
+Implement doGet and doPost Methods: The UserServlet class handles form data submission and user data retrieval using doPost and doGet. 
+User Form Registration and Profile: The register.jsp handles form submission to UserServlet. 
+Integrate JSP with Servlets: The UserServlet forwards the user data to user-list.jsp. 
+Display User Data in JSP: The user-list.jsp uses JSTL to render user details. 
+Use JSTL and EL: Demonstrated in user-list.jsp for data iteration and dynamic content. 
+
+REVIEW 4
+
+Unit Tests for DAO: Created UserDAOTest under test/java/com/travel/dao/.
