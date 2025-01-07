@@ -58,20 +58,13 @@ The project demonstrates a seamless integration of Java Servlets, JSP, JDBC, and
    - Conducted extensive testing of DAO methods and Servlets to ensure reliability.
    - Resolved issues in URL mappings and data rendering logic.
 
----
+4. **Responsive Design**:
+   - Improved responsiveness for mobile and tablet views.
+   - Used CSS frameworks like Bootstrap for easier cross-device compatibility.
 
-## **Areas for Improvement**
-1. **Responsive Design**:
-   - Improve responsiveness for mobile and tablet views.
-   - Use CSS frameworks like Bootstrap for easier cross-device compatibility.
-
-2. **Enhanced User Features**:
-   - Implement a login/logout system and user authentication.
-   - Add functionality for saving favorite destinations or custom itineraries.
-
-3. **Advanced Destination Display**:
-   - Integrate APIs to fetch live destination information (e.g., weather, activities).
-   - Add filtering options for users to explore destinations based on interests.
+5. **Enhanced User Features**:
+   - Implemented a login/logout system and user authentication.
+   - Added functionality for saving favorite destinations or custom itineraries.
 
 ---
 
