@@ -71,7 +71,7 @@ The project follows the **Model-View-Controller (MVC)** architecture:
 ### **7. Database Design**
 #### Database Name: `travel_website`
 
-**Table Name**: `users`
+**Table Name**: `newsletter_subscribers`
 | Column Name  | Data Type      | Constraints                |
 |--------------|----------------|----------------------------|
 | `id`         | INT            | Primary Key, Auto Increment |
